@@ -46,7 +46,7 @@ body * {
 #container {
   width: 100%;
   max-width: 588px;
-  margin: 15px auto 0px;
+  margin: 30px auto 0px;
   padding: 0 24px;
 }
 
@@ -177,9 +177,13 @@ footer {
   font-size: 14px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 450px) {
   body {
     height: 100%;
+  } 
+
+  #container {
+    margin: 10px auto 0px;
   }
 
   #profile {

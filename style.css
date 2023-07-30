@@ -46,7 +46,7 @@ body * {
 #container {
   width: 100%;
   max-width: 588px;
-  margin: 30px auto 0px;
+  margin: 15px auto 0px;
   padding: 0 24px;
 }
 
@@ -180,10 +180,6 @@ footer {
 @media (max-width: 375px) {
   body {
     height: 100%;
-  }
-
-  #container {
-    margin: 20px auto 0px;
   }
 
   #profile {
